@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 117.0, 129.0, 421.0, 153.0 ],
+		"rect" : [ 117.0, 129.0, 962.0, 466.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,17 @@
 		"subpatcher_template" : "",
 		"title" : "Sound Control",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 295.0, 171.0, 150.0, 20.0 ],
+					"text" : "testmerge"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-255",
 					"linecount" : 5,
@@ -5803,7 +5814,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 23.0, 534.0, 56.0, 22.0 ],
 									"text" : "autopattr",
-									"varname" : "u256000891"
+									"varname" : "u138002163"
 								}
 
 							}

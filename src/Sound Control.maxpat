@@ -5803,7 +5803,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 23.0, 534.0, 56.0, 22.0 ],
 									"text" : "autopattr",
-									"varname" : "u297003335"
+									"varname" : "u256000891"
 								}
 
 							}

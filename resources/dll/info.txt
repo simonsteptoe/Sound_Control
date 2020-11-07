@@ -1,0 +1,5 @@
+Dynamically Linked Libraries: msvcp120.dll & msvcr120.dll
+
+In case Windows machines complain that they cannot find these libraries, these files should be placed in the root of the  Sound Control standalone app folder (Windows only).
+
+

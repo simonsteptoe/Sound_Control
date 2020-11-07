@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 366.0, 164.0, 933.0, 512.0 ],
+		"rect" : [ 1753.0, -458.0, 930.0, 542.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -73,7 +73,6 @@
 			}
 , 			{
 				"box" : 				{
-					"align" : 1,
 					"bgcolor" : [ 0.290196078431373, 0.286274509803922, 0.286274509803922, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Silom",
@@ -88,7 +87,6 @@
 					"patching_rect" : [ 239.600193020556844, 98.084677487611771, 139.775481432676315, 22.280575513839722 ],
 					"rounded" : 13.0,
 					"text" : "LAUNCH INSTRUMENT",
-					"textjustification" : 1,
 					"texton" : "LAUNCH INSTRUMENT",
 					"textoncolor" : [ 0.996078, 0.976471, 0.976471, 1.0 ]
 				}
@@ -155,14 +153,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 274.833344000000011, -54.428572773933411, 130.0, 23.0 ],
+					"patching_rect" : [ 193.56157706365434, -17.0, 130.0, 23.0 ],
 					"text_width" : 80.0
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"align" : 1,
 					"bgcolor" : [ 0.533333, 0.52549, 0.52549, 1.0 ],
 					"fontname" : "Silom",
 					"fontsize" : 11.0,
@@ -176,7 +173,6 @@
 					"patching_rect" : [ 16.453900635242462, 99.375000029802322, 94.308419950702671, 23.599998000000014 ],
 					"rounded" : 13.0,
 					"text" : "Audio Settings",
-					"textjustification" : 1,
 					"texton" : "Audio Settings",
 					"textoncolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ]
 				}
@@ -5944,7 +5940,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 23.0, 534.0, 56.0, 22.0 ],
 									"text" : "autopattr",
-									"varname" : "u049000891"
+									"varname" : "u716001428"
 								}
 
 							}
@@ -12352,8 +12348,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 159.0, 38.0, 150.0, 20.0 ],
 					"text" : "MODE SELECT",
-					"textcolor" : [ 0.403922, 0.403922, 0.403922, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 0.403922, 0.403922, 0.403922, 1.0 ]
 				}
 
 			}

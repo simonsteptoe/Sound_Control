@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1587.0, -191.0, 2278.0, 1328.0 ],
+		"rect" : [ 248.0, 79.0, 2278.0, 1328.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1769.0, 1466.0, 338.0, 127.0 ],
+					"patching_rect" : [ 1769.0, 1466.0, 339.0, 127.0 ],
 					"text" : "This \"recall\" dict is used to recall the last used setting. It has an alias in the [colour_tracker] subpatch of the main patch, so the settings remain stored there even when this patch closes. When this patch is opened again (i.e. when a colour tracker instrument is generated), the dictionary's contents are recalled thanks to the loadbang.\nIf a save file is loaded, the recall dict will be recalled, but the loadfile dict will be recalled immediately after (as it is to the left)."
 				}
 
@@ -464,7 +464,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 676.0, 981.0, 281.0, 22.0 ],
-					"text" : "jit.window colourTrack_vis @pos 100 500 @grow 0"
+					"text" : "jit.window colourTrack_vis @pos 100 500 @grow 1"
 				}
 
 			}
@@ -1184,7 +1184,7 @@
 					"patching_rect" : [ 214.5, 2182.0, 66.714354999999998, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 212.199996999999996, 190.0, 85.0, 20.0 ],
-					"text" : "32.00 0.00",
+					"text" : "Absent",
 					"textjustification" : 1
 				}
 
@@ -3980,7 +3980,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-84",
-					"items" : "FaceTime HD Camera",
+					"items" : [ "FaceTime HD Camera", ",", "CamTwist", ",", "CamTwist (2VUY)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

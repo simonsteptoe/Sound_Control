@@ -77,6 +77,7 @@ The app automatically sets it’s audio I/O to whatever the I/O settings of the 
 ### Building:
 * Click File> Build Collective/Application (if this option is not available, click File> Max Menus).
 * Click "Include Folder..." and select Sound Control/src folder
+* (Optional): Sound Control has a custom icon, the .icns file being located at "resources/icon/sc_icon.icns". To enable the app to have this icon, you must add the following instruction to the build script: "appicon /path/to/icon file" (where your specific path will be something like "Users/username/Sound_Control/resources/sc_icon.icns")
 * Click "Build" and select a location. You may want to create a builds folder in your repo that is ignored by git.
 * Make sure to select "Application" from the File Format Menu, and click Save.
 * In order to include the saving functionality when building a standalone from source, read the info.txt file inside resources/Custom Saving Scripts. This process happens after building the standalone so one cannot save instruments by just using the scripts.

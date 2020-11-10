@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 514.0, 141.0, 1059.0, 1139.0 ],
+		"rect" : [ 1050.0, 199.0, 1059.0, 1139.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1170.0, 44.0, 150.0, 48.0 ],
+					"patching_rect" : [ 1170.0, 44.0, 150.0, 47.0 ],
 					"text" : "proportion multiplier - popout window will be 3x larger"
 				}
 
@@ -137,7 +137,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 1170.0, 158.0, 274.0, 22.0 ],
-					"text" : "jit.window dumbCam_vis @pos 100 500 @grow 0"
+					"text" : "jit.window dumbCam_vis @pos 100 500 @grow 1"
 				}
 
 			}
@@ -148,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.5, 595.0, 150.0, 62.0 ],
+					"patching_rect" : [ 510.5, 595.0, 150.0, 60.0 ],
 					"text" : "close the grabber when the instrument closes, allowing it to be used by another instrument"
 				}
 
@@ -184,7 +184,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1100.0, 993.0, 150.0, 48.0 ],
+					"patching_rect" : [ 1100.0, 993.0, 150.0, 47.0 ],
 					"text" : "(get number at the end of the file name and send to savesensor)"
 				}
 
@@ -197,7 +197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1095.0, 951.0, 148.0, 36.0 ],
+					"patching_rect" : [ 1095.0, 951.0, 148.0, 35.0 ],
 					"text" : "fromsymbol @separator sensor"
 				}
 
@@ -254,7 +254,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 986.0, 1070.0, 155.0, 34.0 ],
+					"patching_rect" : [ 986.0, 1070.0, 155.0, 33.0 ],
 					"text" : "sends to saver sub in main patch"
 				}
 
@@ -266,7 +266,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 830.0, 932.0, 150.0, 34.0 ],
+					"patching_rect" : [ 830.0, 932.0, 150.0, 33.0 ],
 					"text" : "1 is sent when the sensor is active, opening the gate"
 				}
 
@@ -278,7 +278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 837.0, 846.0, 152.0, 62.0 ],
+					"patching_rect" : [ 837.0, 846.0, 152.0, 60.0 ],
 					"text" : "receives from saver sub in main patch, banged when the saveHandler is triggered"
 				}
 
@@ -656,7 +656,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1145,10 +1145,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 4.0, 156.0, 34.0 ],
+					"patching_rect" : [ 5.5, 4.0, 156.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 10.0, 10.0, 74.0, 34.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 74.0, 33.0 ],
 					"text" : "Dumb\nCamera"
 				}
 
@@ -1250,7 +1250,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-78",
-					"items" : "Integrated Webcam",
+					"items" : [ "FaceTime HD Camera", ",", "CamTwist", ",", "CamTwist (2VUY)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

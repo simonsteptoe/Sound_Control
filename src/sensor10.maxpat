@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1941.0, 2.0, 1855.0, 1005.0 ],
+		"rect" : [ 671.0, 79.0, 1855.0, 1005.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -226,7 +226,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 729.0, 885.0, 309.0, 22.0 ],
-					"text" : "jit.window multiColourTrack_vis @pos 100 500 @grow 0"
+					"text" : "jit.window multiColourTrack_vis @pos 100 500 @grow 1"
 				}
 
 			}
@@ -1732,7 +1732,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-78",
-					"items" : "FaceTime HD Camera",
+					"items" : [ "FaceTime HD Camera", ",", "CamTwist", ",", "CamTwist (2VUY)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

@@ -1,5 +1,14 @@
-Paste and replace the original file with this modification file inorder to make saveing and opening work.
-Paste: Sound\ Control.app/Contents/Resources/C74/interfaces/
+This folder contains two versions of the maxinterface.json file: the modified version, and the original, in respective folders. The modified version is required by the app to enable saving and loading. 
+
+The modified version is to be copy-and-pasted to a specific location (see below), and the original version is included in case the ORIGINAL original version is misplaced. Note that they share the same name, lending to potential confusion. 
+
+INSTRUCTIONS:
+
+Navigate to… 
+
+Sound\ Control.app/Contents/Resources/C74/interfaces/
+
+…and replace the “maxinterface.json” file located in there with the one found in the “Modification” folder that shares the same location as this .txt file.
 
 See this link for changes made
 https://cycling74.com/forums/saving-preset-automatically-with-commands-in-standalone-app

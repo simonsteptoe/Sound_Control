@@ -1,7 +1,9 @@
-<p float="left">	
-	<img src="src/iconBlue.png" alt="Markdown Monster icon"width=200 style="float: left; margin-right: 10px;" /> 
-	<img align="left"  height="250" src="https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif" /> 
-</p>
+<table>
+	<tr>
+		<td><img src="src/iconBlue.png" alt="Markdown Monster icon"width=200 style="float: left; margin-right: 10px;" /> </td>
+		<td><img align="left"  height="250" src="https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif" /> </td>
+	</tr>
+</table>
 
 # Sound Control
 

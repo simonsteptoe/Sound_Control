@@ -1,7 +1,12 @@
-<img src="src/iconBlue.png"
-     alt="Markdown Monster icon"
-	 width=200
-     style="float: left; margin-right: 10px;" /> | <img align="left"  height="250" src="https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif">
+<div>
+	<div><img src="src/iconBlue.png"
+    	alt="Markdown Monster icon"
+	 	width=200
+     	style="float: left; margin-right: 10px;" /> 
+	</div> 
+	<div> <img align="left"  height="250" src="https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif">
+	</div>
+</div>
 
 # Sound Control
 

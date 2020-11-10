@@ -1,3 +1,4 @@
+<div
 <div style="text-align:center"><a href="http://www.youtube.com/watch?v=byqQttte1-g"><img src="https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif"/></a></div>
 
 <img src="src/iconBlue.png"
@@ -7,6 +8,7 @@
 
 # Sound Control
 
+<div> 
 www.soundcontrolsoftware.com
 
 Sound Control is free software that can be used by anyone to create new musical instruments using their choice of movements, sensed with a variety of off-the-shelf devices (including webcam, Leap Motion, micro:bit, mouse, microphone, etc.). Sound Control uses machine learning to enable users to create new musical instruments by demonstrating examples of motions and sounds, so no programming or musical expertise is necessary! These new instruments can be used to play and manipulate musical material, which can be either new material recorded by users or taken from third-party sample libraries.

@@ -3,10 +3,8 @@
 <img src="src/iconBlue.png"
      alt="Markdown Monster icon"
 	 width=250
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /> | <div style="text-align:center"><a href="http://www.youtube.com/watch?v=byqQttte1-g"><img src="https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif"/></a>
 
-<div style="text-align:center"><a href="http://www.youtube.com/watch?v=byqQttte1-g"><img src="https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif"/></a> 
-	 
 </div>
 
 # Sound Control

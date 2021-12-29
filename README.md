@@ -5,6 +5,9 @@
 	</tr>
 </table>
 
+# NOTE - This branch is an archive for the PRE-CATALINA MAC version - pending MERGING etc, 
+
+
 # Sound Control
 
 www.soundcontrolsoftware.com

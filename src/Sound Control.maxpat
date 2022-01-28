@@ -42,6 +42,24 @@
 		"title" : "Sound Control",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Silom",
+					"fontsize" : 10.0,
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 209.0, 8.521739721298218, 86.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 217.457019648024072, 25.5765340924263, 129.0, 19.0 ],
+					"text" : "[SS-pre-CAT]",
+					"textcolor" : [ 0.996078, 0.976471, 0.976471, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 8.0,
 					"id" : "obj-3",
 					"linecount" : 2,

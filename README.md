@@ -7,7 +7,8 @@
 
 # Sound Control
 
-[REVISED VERSION FOR PROPER READING OF GAMETRAK PARAMETERS ON BIG SUR/CATALINA (Windows version unchanged)]
+[VERSION WITH COMPILE TIME SWTICH FOR WINDOWS vs MAC and PRE vs POST CATALINA MacOS etc.]
+[NB: For difficulties with MacOs Catalina and especially BigSur quarantinning .mxo and other "external" files/apps/modules etc... use the terminal command: "xattr -rd com.apple.quarantine" followed by the name of a top level folder within which the problem files are contained. Best to do so prior to running the app for the first time!]
 
 www.soundcontrolsoftware.com
 
@@ -24,7 +25,9 @@ Sound Control is supported by a Paul Hamlyn Foundation “Widening Access and Pa
   - To access full Max menus: File > Max Menus
   - To enable scrolling and window enlarging: put the patch in edit mode, then use APPLE + F (or CTRL + F on windows) to search for "window flags". This should scope to a message box:[window flags nogrow, window exec]. Disconnect this object from the loadbang object above it (the one on the right), save the patcher, and re-open it.
 - Operating system: There is a flag for building for MacOS or Windows. The toggle for this flag can be found at the top of the patch (underneath "BUILDING: Mac/Win Flag"). This affects which sensorlist.json is loaded, the gametrak code, and the running of the CBMicroBit executable (used for Bluetooth micro:bit connectivity on Mac).
+  [An additional flag has been added to ensure proper operations of GameTrak on Macs runing pre-Catalina or post-Catalina/Big Sur MacOs]
 - Saving: For the purpose of testing the save function within the Max environment, there is a block of code in the [subpatch-construction.js] starting at line 113. It inserts a bang object into the instrument subpatch (the instrument subpatch is the popup patch that is created by the subpatch-construction.js). This bang object is connected to a send, which is received by the save handler in the main patch. What this allows you to do is test the saving function, which ONLY WORKS if the instrument subpatch is active, i.e. at the front of all your windows. This bang should only be present during development, and therefore the block of code in the [subpatch-construction.js] which creates it should be commented out when building the standalone.
+  
 
 ## Externals & 3rd Party Software Used
 
@@ -59,6 +62,8 @@ http://expr-i0.net/shell_170717.zip
 - In order to use the Micro:Bit, you must first flash it with a .hex file. A range of .hex files are located inside "resources/MB Hex Files"
 - The .hex file you will want to select depends on two things: the connection you wish to make (USB or Bluetooth), and the version of your Micro:Bit hardware (v1.0 or v1.5).
 - Instructions about how to flash your micro:bit with the correct hex file can be found at http://soundcontrolsoftware.com/tutorial/#Setting_up_microbit_optional
+
+NB: Bluetooth functionality only works with Micro:Bit v1.0 or 1.5 AND if MacOs is Catalina or earlier. However, for BigSur and Micro:Bit v2 there is a Hex file provided for a two Micro-bit wireless set-up using the radio functionality of the devices. MORE INFO TO FOLLOW.]
 
 ### Leap Motion (Optional)
 
@@ -98,7 +103,7 @@ The app automatically sets it’s audio I/O to whatever the I/O settings of the 
 
 - Click File> Build Collective/Application (if this option is not available, click File> Max Menus).
 - Click "Include Folder..." and select Sound Control/src folder
-  - (Optional): Sound Control has a custom icon, the .icns file being located at "resources/icon/sc_icon.icns". To enable the app to have this icon, you must add the following instruction to the build script: "appicon /path/to/icon file" (where your specific path will be something like "Users/username/Sound_Control/resources/sc_icon.icns")
+  - (Optional): Sound Control has a custom icon, the .icns file being located at "resources/icon/sc_icon.icns". To enable the app to have this icon, you must add the following instruction to the build script: appicon "/path/to/icon-folder icon-file-name" (where your specific path will be something like "Users/username/Sound_Control/resources/icon/sc_icon.icns")
 - Click "Build" and select a location. You may want to create a builds folder in your repo that is ignored by git.
 - Make sure to select "Application" from the File Format Menu, and click Save.
 - In order to include the saving functionality when building a standalone from source, read the info.txt file inside resources/Custom Saving Scripts. This process happens after building the standalone so one cannot save instruments by just using the scripts.

@@ -104,7 +104,7 @@
 					"patching_rect" : [ 47.204311626571553, 5.00863985581492, 283.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 202.457019648024072, 10.5765340924263, 145.0, 41.0 ],
+					"presentation_rect" : [ 202.457019648024072, 10.5765340924263, 150.0, 41.0 ],
 					"text" : "SOUND CONTROL (3.4.0  S1)",
 					"textcolor" : [ 0.996078, 0.976471, 0.976471, 1.0 ]
 				}
@@ -12494,15 +12494,15 @@
 					"bubbleside" : 3,
 					"fontface" : 2,
 					"fontname" : "Myanmar Sangam MN",
-					"fontsize" : 13.0,
+					"fontsize" : 11.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 141.605392964052214, 325.0, 22.0 ],
+					"patching_rect" : [ 10.0, 141.605392964052214, 276.0, 20.0 ],
 					"text" : "Remember: Plug in sensors before opening app!",
 					"textcolor" : [ 0.403922, 0.403922, 0.403922, 1.0 ],
-					"textjustification" : 1
+					"textjustification" : 0
 				}
 
 			}

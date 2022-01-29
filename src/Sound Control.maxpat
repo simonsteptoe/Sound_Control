@@ -45,15 +45,15 @@
 					"bgcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 0.0 ],
 					"fontface" : 1,
 					"fontname" : "Silom",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.0, 8.521739721298218, 86.0, 19.0 ],
+					"patching_rect" : [ 208.811055192062383, 8.714457319660283, 86.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 217.457019648024072, 25.5765340924263, 129.0, 19.0 ],
-					"text" : "[SS-pre-CAT]",
+					"presentation_rect" : [ 217.457019648024072, 25.5765340924263, 118.0, 17.0 ],
+					"text" : "[pre-Catalina]",
 					"textcolor" : [ 0.996078, 0.976471, 0.976471, 1.0 ]
 				}
 
@@ -67,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.656697809696198, 100.562479513171411, 138.0, 25.0 ],
-					"text" : "[Version for proper operation of GameTrak on Mac pre-Catalina]"
+					"text" : "[NB: Version for proper operation of GameTrak on pre-Catalina MAC]"
 				}
 
 			}
@@ -12499,15 +12499,15 @@
 					"bubbleside" : 3,
 					"fontface" : 2,
 					"fontname" : "Myanmar Sangam MN",
-					"fontsize" : 13.0,
+					"fontsize" : 11.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 141.605392964052214, 325.0, 22.0 ],
+					"patching_rect" : [ 13.656697809696198, 135.692504762245164, 281.0, 20.0 ],
 					"text" : "Remember: Plug in sensors before opening app!",
 					"textcolor" : [ 0.403922, 0.403922, 0.403922, 1.0 ],
-					"textjustification" : 1
+					"textjustification" : 0
 				}
 
 			}

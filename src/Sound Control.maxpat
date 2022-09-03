@@ -72,7 +72,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 844.0, -283.0, 138.0, 34.0 ],
-					"text" : "1 = Catalina/Big Sure\n2 = pre-Catalina"
+					"text" : "1 = Catalina/Big Sur\n2 = pre-Catalina"
 				}
 
 			}

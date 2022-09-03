@@ -8,7 +8,7 @@
 # Sound Control
 
 [VERSION WITH COMPILE TIME SWTICH FOR WINDOWS vs MAC and PRE vs POST CATALINA MacOS etc.]
-[NB: For difficulties with MacOs Catalina and especially BigSur quarantinning .mxo and other "external" files/apps/modules etc... use the terminal command: "xattr -rd com.apple.quarantine" followed by the name of a top level folder within which the problem files are contained. Best to do so prior to running the app for the first time!]
+[NB: For difficulties with MacOs Catalina and especially BigSur quarantining .mxo and other "external" files/apps/modules etc... use the terminal command: "xattr -rd com.apple.quarantine" followed by the name of a top level folder within which the problem files are contained. Best to do so prior to running the app for the first time!]
 
 www.soundcontrolsoftware.com
 

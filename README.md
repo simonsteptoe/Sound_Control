@@ -120,5 +120,4 @@ In order for Sound Control's Micro:Bit Bluetooth functionality to work on MacOS,
 9. In the Packages menu bar, click Build > Build and Run. You can now test if your package puts the CBMicroBit in the right place on your machine, and if the Sound Control app runs as expected.
 
 ![alt text](logos/NMPAT_long.jpg?raw=true "Logo1")
-![alt text](logos/pfh.jpg?raw=true "Logo2")
-![alt text](logos/Youth_Music.jpg?raw=true "Logo3")
+
